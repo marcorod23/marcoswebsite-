@@ -1,0 +1,587 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_004{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:8.3px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:8.3px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_002{font-family:Arial,serif;font-size:6.5px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:6.5px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:6.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:6.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:"Microsoft Sans Serif",serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:"Microsoft Sans Serif",serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:"Microsoft Sans Serif",serif;font-size:6.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:"Microsoft Sans Serif",serif;font-size:6.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:7.5px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:7.5px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:8.3px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_019{font-family:Arial,serif;font-size:8.3px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:6.5px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_018{font-family:Arial,serif;font-size:6.5px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:7.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:7.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="afeeff50-b60c-11e8-b59b-0cc47a792c0a_id_afeeff50-b60c-11e8-b59b-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="afeeff50-b60c-11e8-b59b-0cc47a792c0a_id_afeeff50-b60c-11e8-b59b-0cc47a792c0a_files/background1.jpg" width=612 height=792></div>
+<div style="position:absolute;left:41.50px;top:36.24px" class="cls_004"><span class="cls_004">Student Name</span></div>
+<div style="position:absolute;left:438.00px;top:37.94px" class="cls_005"><span class="cls_005">Unofficial High School</span></div>
+<div style="position:absolute;left:251.49px;top:42.44px" class="cls_005"><span class="cls_005">Kern High School District</span></div>
+<div style="position:absolute;left:46.00px;top:45.56px" class="cls_005"><span class="cls_005">Rodriguez Garcia, Marco A.</span></div>
+<div style="position:absolute;left:447.78px;top:51.54px" class="cls_009"><span class="cls_009">Shafter High School</span></div>
+<div style="position:absolute;left:265.98px;top:55.94px" class="cls_006"><span class="cls_006">Shafter High School</span></div>
+<div style="position:absolute;left:41.50px;top:63.24px" class="cls_004"><span class="cls_004">Perm ID</span></div>
+<div style="position:absolute;left:104.50px;top:63.24px" class="cls_004"><span class="cls_004">State ID</span></div>
+<div style="position:absolute;left:167.50px;top:63.24px" class="cls_004"><span class="cls_004">Grd</span></div>
+<div style="position:absolute;left:194.50px;top:63.24px" class="cls_004"><span class="cls_004">Gen</span></div>
+<div style="position:absolute;left:448.64px;top:64.14px" class="cls_009"><span class="cls_009">September 06, 2018</span></div>
+<div style="position:absolute;left:46.00px;top:73.37px" class="cls_005"><span class="cls_005">514380</span></div>
+<div style="position:absolute;left:109.00px;top:73.59px" class="cls_005"><span class="cls_005">6063352525</span></div>
+<div style="position:absolute;left:172.00px;top:73.59px" class="cls_005"><span class="cls_005">12</span></div>
+<div style="position:absolute;left:199.00px;top:73.59px" class="cls_005"><span class="cls_005">M</span></div>
+<div style="position:absolute;left:245.31px;top:72.24px" class="cls_004"><span class="cls_004">Unofficial Transcript (High School)</span></div>
+<div style="position:absolute;left:436.00px;top:76.74px" class="cls_009"><span class="cls_009"> </span><A HREF="http://shafter.kernhigh.org/">http://shafter.kernhigh.org</A> </div>
+<div style="position:absolute;left:41.50px;top:90.24px" class="cls_004"><span class="cls_004">Date Of Birth</span></div>
+<div style="position:absolute;left:131.50px;top:92.49px" class="cls_004"><span class="cls_004">Phone</span></div>
+<div style="position:absolute;left:401.50px;top:90.24px" class="cls_004"><span class="cls_004">Phone</span></div>
+<div style="position:absolute;left:491.50px;top:90.24px" class="cls_004"><span class="cls_004">Fax</span></div>
+<div style="position:absolute;left:221.50px;top:99.33px" class="cls_007"><span class="cls_007">Enter Date</span></div>
+<div style="position:absolute;left:311.50px;top:99.33px" class="cls_007"><span class="cls_007">Leave Date</span></div>
+<div style="position:absolute;left:48.25px;top:101.39px" class="cls_005"><span class="cls_005">07/23/2001</span></div>
+<div style="position:absolute;left:138.25px;top:101.39px" class="cls_005"><span class="cls_005">661-240-3999</span></div>
+<div style="position:absolute;left:406.00px;top:100.58px" class="cls_005"><span class="cls_005">661-746-4961</span></div>
+<div style="position:absolute;left:496.00px;top:100.58px" class="cls_005"><span class="cls_005">661-746-6743</span></div>
+<div style="position:absolute;left:226.00px;top:108.05px" class="cls_008"><span class="cls_008">08/19/2015</span></div>
+<div style="position:absolute;left:39.25px;top:117.24px" class="cls_004"><span class="cls_004">Home Address</span></div>
+<div style="position:absolute;left:401.50px;top:117.24px" class="cls_004"><span class="cls_004">School Address</span></div>
+<div style="position:absolute;left:41.50px;top:128.49px" class="cls_009"><span class="cls_009">700 S Shafter Ave Spc 15</span></div>
+<div style="position:absolute;left:406.00px;top:127.66px" class="cls_010"><span class="cls_010">526 Mannel Ave</span></div>
+<div style="position:absolute;left:41.50px;top:137.49px" class="cls_009"><span class="cls_009">Shafter, CA 93263-2643</span></div>
+<div style="position:absolute;left:274.04px;top:134.44px" class="cls_008"><span class="cls_008">Class of 2019</span></div>
+<div style="position:absolute;left:406.00px;top:137.38px" class="cls_010"><span class="cls_010">Shafter, CA 93263-1810</span></div>
+<div style="position:absolute;left:50.50px;top:170.50px" class="cls_002"><span class="cls_002">Crs ID</span></div>
+<div style="position:absolute;left:86.50px;top:170.50px" class="cls_002"><span class="cls_002">Course Title</span></div>
+<div style="position:absolute;left:149.09px;top:170.83px" class="cls_003"><span class="cls_003">Mark</span></div>
+<div style="position:absolute;left:176.35px;top:170.83px" class="cls_003"><span class="cls_003">Cred Att/Cmp</span></div>
+<div style="position:absolute;left:230.50px;top:170.50px" class="cls_002"><span class="cls_002">Crs ID</span></div>
+<div style="position:absolute;left:266.50px;top:170.50px" class="cls_002"><span class="cls_002">Course Title</span></div>
+<div style="position:absolute;left:329.09px;top:170.83px" class="cls_003"><span class="cls_003">Mark</span></div>
+<div style="position:absolute;left:356.35px;top:170.83px" class="cls_003"><span class="cls_003">Cred Att/Cmp</span></div>
+<div style="position:absolute;left:410.50px;top:170.50px" class="cls_002"><span class="cls_002">Crs ID</span></div>
+<div style="position:absolute;left:446.50px;top:170.50px" class="cls_002"><span class="cls_002">Course Title</span></div>
+<div style="position:absolute;left:509.09px;top:170.83px" class="cls_003"><span class="cls_003">Mark</span></div>
+<div style="position:absolute;left:536.35px;top:170.83px" class="cls_003"><span class="cls_003">Cred Att/Cmp</span></div>
+<div style="position:absolute;left:94.94px;top:180.63px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:274.94px;top:180.63px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:454.94px;top:180.63px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:50.39px;top:190.26px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:63.93px;top:190.26px" class="cls_002"><span class="cls_002">2014</span></div>
+<div style="position:absolute;left:108.93px;top:190.26px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  SS1</span></div>
+<div style="position:absolute;left:162.93px;top:190.26px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:189.89px;top:190.26px" class="cls_002"><span class="cls_002">08</span></div>
+<div style="position:absolute;left:230.39px;top:190.26px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:243.93px;top:190.26px" class="cls_002"><span class="cls_002">2015</span></div>
+<div style="position:absolute;left:288.93px;top:190.26px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  SS2</span></div>
+<div style="position:absolute;left:342.93px;top:190.26px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:369.89px;top:190.26px" class="cls_002"><span class="cls_002">09</span></div>
+<div style="position:absolute;left:410.39px;top:190.26px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:423.93px;top:190.26px" class="cls_002"><span class="cls_002">2017</span></div>
+<div style="position:absolute;left:468.93px;top:190.26px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  S1</span></div>
+<div style="position:absolute;left:522.93px;top:190.26px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:549.89px;top:190.26px" class="cls_002"><span class="cls_002">11</span></div>
+<div style="position:absolute;left:55.00px;top:200.58px" class="cls_012"><span class="cls_012">2211</span></div>
+<div style="position:absolute;left:86.50px;top:200.58px" class="cls_012"><span class="cls_012">GEOM 10 P</span></div>
+<div style="position:absolute;left:158.50px;top:200.87px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:200.54px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:200.58px" class="cls_012"><span class="cls_012">1025</span></div>
+<div style="position:absolute;left:266.50px;top:200.58px" class="cls_012"><span class="cls_012">WLD HIST P</span></div>
+<div style="position:absolute;left:338.50px;top:200.87px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:200.54px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:200.58px" class="cls_012"><span class="cls_012">6974</span></div>
+<div style="position:absolute;left:446.50px;top:200.58px" class="cls_012"><span class="cls_012">Computer Integrated ManuA</span></div>
+<div style="position:absolute;left:544.96px;top:200.54px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:47.33px;top:209.05px" class="cls_014"><span class="cls_014">Cred Att: 5.00</span></div>
+<div style="position:absolute;left:107.30px;top:209.08px" class="cls_014"><span class="cls_014">Cred Cmp: 5.00</span></div>
+<div style="position:absolute;left:173.84px;top:209.08px" class="cls_014"><span class="cls_014">GPA: 4.00</span></div>
+<div style="position:absolute;left:227.33px;top:209.05px" class="cls_014"><span class="cls_014">Cred Att: 5.00</span></div>
+<div style="position:absolute;left:287.30px;top:209.08px" class="cls_014"><span class="cls_014">Cred Cmp: 5.00</span></div>
+<div style="position:absolute;left:353.84px;top:209.08px" class="cls_014"><span class="cls_014">GPA: 4.00</span></div>
+<div style="position:absolute;left:407.33px;top:209.05px" class="cls_014"><span class="cls_014">Cred Att: 35.00</span></div>
+<div style="position:absolute;left:467.30px;top:209.08px" class="cls_014"><span class="cls_014">Cred Cmp: 35.00</span></div>
+<div style="position:absolute;left:533.84px;top:209.08px" class="cls_014"><span class="cls_014">GPA: 4.50</span></div>
+<div style="position:absolute;left:94.94px;top:217.57px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:274.94px;top:217.57px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:454.94px;top:217.57px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:50.39px;top:227.20px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:63.93px;top:227.20px" class="cls_002"><span class="cls_002">2014</span></div>
+<div style="position:absolute;left:108.93px;top:227.20px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  SS2</span></div>
+<div style="position:absolute;left:162.93px;top:227.20px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:189.89px;top:227.20px" class="cls_002"><span class="cls_002">08</span></div>
+<div style="position:absolute;left:230.39px;top:227.20px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:243.93px;top:227.20px" class="cls_002"><span class="cls_002">2016</span></div>
+<div style="position:absolute;left:288.93px;top:227.20px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  S1</span></div>
+<div style="position:absolute;left:342.93px;top:227.20px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:369.89px;top:227.20px" class="cls_002"><span class="cls_002">10</span></div>
+<div style="position:absolute;left:410.39px;top:227.20px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:423.93px;top:227.20px" class="cls_002"><span class="cls_002">2017</span></div>
+<div style="position:absolute;left:468.93px;top:227.20px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  S2</span></div>
+<div style="position:absolute;left:522.93px;top:227.20px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:549.89px;top:227.20px" class="cls_002"><span class="cls_002">11</span></div>
+<div style="position:absolute;left:55.00px;top:237.52px" class="cls_012"><span class="cls_012">2211</span></div>
+<div style="position:absolute;left:86.50px;top:237.52px" class="cls_012"><span class="cls_012">GEOM 10 P</span></div>
+<div style="position:absolute;left:158.50px;top:237.80px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:237.48px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:237.52px" class="cls_012"><span class="cls_012">0205</span></div>
+<div style="position:absolute;left:266.50px;top:237.52px" class="cls_012"><span class="cls_012">ENG 10 G P</span></div>
+<div style="position:absolute;left:338.50px;top:237.80px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:237.48px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:237.52px" class="cls_012"><span class="cls_012">0407</span></div>
+<div style="position:absolute;left:446.50px;top:237.52px" class="cls_012"><span class="cls_012">AP ENGLISH/LANGUAGE A</span></div>
+<div style="position:absolute;left:544.96px;top:237.48px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:47.33px;top:245.98px" class="cls_014"><span class="cls_014">Cred Att: 5.00</span></div>
+<div style="position:absolute;left:107.30px;top:246.01px" class="cls_014"><span class="cls_014">Cred Cmp: 5.00</span></div>
+<div style="position:absolute;left:173.84px;top:246.01px" class="cls_014"><span class="cls_014">GPA: 4.00</span></div>
+<div style="position:absolute;left:235.00px;top:246.09px" class="cls_012"><span class="cls_012">2420</span></div>
+<div style="position:absolute;left:266.50px;top:246.09px" class="cls_012"><span class="cls_012">MATH ANAL HP</span></div>
+<div style="position:absolute;left:338.50px;top:246.37px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:246.05px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:246.09px" class="cls_012"><span class="cls_012">1407</span></div>
+<div style="position:absolute;left:446.50px;top:246.09px" class="cls_012"><span class="cls_012">AP USHISTORY</span></div>
+<div style="position:absolute;left:518.50px;top:246.37px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:544.96px;top:246.05px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:94.94px;top:254.50px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:235.00px;top:254.65px" class="cls_012"><span class="cls_012">3205</span></div>
+<div style="position:absolute;left:266.50px;top:254.65px" class="cls_012"><span class="cls_012">BIOLOGY G P</span></div>
+<div style="position:absolute;left:338.50px;top:254.94px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:254.61px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:254.65px" class="cls_012"><span class="cls_012">2615</span></div>
+<div style="position:absolute;left:446.50px;top:254.65px" class="cls_012"><span class="cls_012">AP CALCULUS AB</span></div>
+<div style="position:absolute;left:518.50px;top:254.94px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:544.96px;top:254.61px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:50.39px;top:264.13px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:63.93px;top:264.13px" class="cls_002"><span class="cls_002">2015</span></div>
+<div style="position:absolute;left:108.93px;top:264.13px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  S1</span></div>
+<div style="position:absolute;left:162.93px;top:264.13px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:189.89px;top:264.13px" class="cls_002"><span class="cls_002">09</span></div>
+<div style="position:absolute;left:235.00px;top:263.22px" class="cls_012"><span class="cls_012">3964</span></div>
+<div style="position:absolute;left:266.50px;top:263.22px" class="cls_012"><span class="cls_012">SPANSPKNG 2P</span></div>
+<div style="position:absolute;left:338.50px;top:263.51px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:263.18px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:263.22px" class="cls_012"><span class="cls_012">3414</span></div>
+<div style="position:absolute;left:446.50px;top:263.22px" class="cls_012"><span class="cls_012">CHEMISTRY HP</span></div>
+<div style="position:absolute;left:518.50px;top:263.51px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:544.96px;top:263.18px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:271.79px" class="cls_012"><span class="cls_012">4301</span></div>
+<div style="position:absolute;left:266.50px;top:271.79px" class="cls_012"><span class="cls_012">PE10/CORE</span></div>
+<div style="position:absolute;left:338.50px;top:272.07px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:271.75px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:271.79px" class="cls_012"><span class="cls_012">4168</span></div>
+<div style="position:absolute;left:446.50px;top:271.79px" class="cls_012"><span class="cls_012">AP SPAN LANG</span></div>
+<div style="position:absolute;left:518.50px;top:272.07px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:544.96px;top:271.75px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:55.00px;top:274.45px" class="cls_012"><span class="cls_012">0005</span></div>
+<div style="position:absolute;left:86.50px;top:274.45px" class="cls_012"><span class="cls_012">ENG 9 G P</span></div>
+<div style="position:absolute;left:158.50px;top:274.74px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:274.42px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:280.36px" class="cls_012"><span class="cls_012">6871</span></div>
+<div style="position:absolute;left:266.50px;top:280.36px" class="cls_012"><span class="cls_012">Principles of Engineering ( A</span></div>
+<div style="position:absolute;left:364.96px;top:280.32px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:280.36px" class="cls_012"><span class="cls_012">4501</span></div>
+<div style="position:absolute;left:446.50px;top:280.36px" class="cls_012"><span class="cls_012">COEDPE ELECT</span></div>
+<div style="position:absolute;left:518.50px;top:280.64px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:544.96px;top:280.32px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:55.00px;top:283.02px" class="cls_012"><span class="cls_012">2411</span></div>
+<div style="position:absolute;left:86.50px;top:283.02px" class="cls_012"><span class="cls_012">ALG/ADV P</span></div>
+<div style="position:absolute;left:158.50px;top:283.31px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:282.98px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:227.33px;top:288.82px" class="cls_014"><span class="cls_014">Cred Att: 30.00</span></div>
+<div style="position:absolute;left:287.30px;top:288.85px" class="cls_014"><span class="cls_014">Cred Cmp: 30.00</span></div>
+<div style="position:absolute;left:353.84px;top:288.85px" class="cls_014"><span class="cls_014">GPA: 4.17</span></div>
+<div style="position:absolute;left:415.00px;top:288.93px" class="cls_012"><span class="cls_012">6974</span></div>
+<div style="position:absolute;left:446.50px;top:288.93px" class="cls_012"><span class="cls_012">Computer Integrated ManuA</span></div>
+<div style="position:absolute;left:544.96px;top:288.89px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:55.00px;top:291.59px" class="cls_012"><span class="cls_012">3132</span></div>
+<div style="position:absolute;left:86.50px;top:291.59px" class="cls_012"><span class="cls_012">AG RESOURCEP</span></div>
+<div style="position:absolute;left:158.50px;top:291.87px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:291.55px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:274.94px;top:297.34px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:407.33px;top:297.39px" class="cls_014"><span class="cls_014">Cred Att: 35.00</span></div>
+<div style="position:absolute;left:467.30px;top:297.42px" class="cls_014"><span class="cls_014">Cred Cmp: 35.00</span></div>
+<div style="position:absolute;left:533.84px;top:297.42px" class="cls_014"><span class="cls_014">GPA: 4.50</span></div>
+<div style="position:absolute;left:55.00px;top:300.16px" class="cls_012"><span class="cls_012">3864</span></div>
+<div style="position:absolute;left:86.50px;top:300.16px" class="cls_012"><span class="cls_012">SPANSPKNG 1P</span></div>
+<div style="position:absolute;left:158.50px;top:300.44px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:300.12px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:230.39px;top:306.97px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:243.93px;top:306.97px" class="cls_002"><span class="cls_002">2016</span></div>
+<div style="position:absolute;left:288.93px;top:306.97px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  S2</span></div>
+<div style="position:absolute;left:342.93px;top:306.97px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:369.89px;top:306.97px" class="cls_002"><span class="cls_002">10</span></div>
+<div style="position:absolute;left:457.11px;top:305.04px" class="cls_015"><span class="cls_015">Work In Progress</span></div>
+<div style="position:absolute;left:55.00px;top:308.73px" class="cls_012"><span class="cls_012">4201</span></div>
+<div style="position:absolute;left:86.50px;top:308.73px" class="cls_012"><span class="cls_012">PE 9/CORE</span></div>
+<div style="position:absolute;left:158.50px;top:309.01px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:308.69px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:55.00px;top:317.29px" class="cls_012"><span class="cls_012">4501</span></div>
+<div style="position:absolute;left:86.50px;top:317.29px" class="cls_012"><span class="cls_012">COEDPE ELECT</span></div>
+<div style="position:absolute;left:158.50px;top:317.58px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:317.26px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:317.29px" class="cls_012"><span class="cls_012">0205</span></div>
+<div style="position:absolute;left:266.50px;top:317.29px" class="cls_012"><span class="cls_012">ENG 10 G P</span></div>
+<div style="position:absolute;left:338.50px;top:317.58px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:317.26px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:454.94px;top:314.91px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:55.00px;top:325.86px" class="cls_012"><span class="cls_012">6772</span></div>
+<div style="position:absolute;left:86.50px;top:325.86px" class="cls_012"><span class="cls_012">Intro to Design (PLTW)</span></div>
+<div style="position:absolute;left:158.50px;top:326.15px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:325.82px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:325.86px" class="cls_012"><span class="cls_012">2420</span></div>
+<div style="position:absolute;left:266.50px;top:325.86px" class="cls_012"><span class="cls_012">MATH ANAL HP</span></div>
+<div style="position:absolute;left:338.50px;top:326.15px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:325.82px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:410.46px;top:324.50px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:424.00px;top:324.50px" class="cls_002"><span class="cls_002">2018</span></div>
+<div style="position:absolute;left:469.00px;top:324.50px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  S1</span></div>
+<div style="position:absolute;left:523.00px;top:324.50px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:549.96px;top:324.50px" class="cls_002"><span class="cls_002">12</span></div>
+<div style="position:absolute;left:47.33px;top:334.33px" class="cls_014"><span class="cls_014">Cred Att: 35.00</span></div>
+<div style="position:absolute;left:107.30px;top:334.36px" class="cls_014"><span class="cls_014">Cred Cmp: 35.00</span></div>
+<div style="position:absolute;left:173.84px;top:334.36px" class="cls_014"><span class="cls_014">GPA: 4.00</span></div>
+<div style="position:absolute;left:235.00px;top:334.43px" class="cls_012"><span class="cls_012">3205</span></div>
+<div style="position:absolute;left:266.50px;top:334.43px" class="cls_012"><span class="cls_012">BIOLOGY G P</span></div>
+<div style="position:absolute;left:338.50px;top:334.71px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:334.39px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:334.86px" class="cls_012"><span class="cls_012">0607</span></div>
+<div style="position:absolute;left:446.50px;top:334.86px" class="cls_012"><span class="cls_012">AP ENGLISH/LITERATUR</span></div>
+<div style="position:absolute;left:544.96px;top:334.86px" class="cls_012"><span class="cls_012">5.00 / 0.00</span></div>
+<div style="position:absolute;left:94.94px;top:342.85px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:235.00px;top:343.00px" class="cls_012"><span class="cls_012">3964</span></div>
+<div style="position:absolute;left:266.50px;top:343.00px" class="cls_012"><span class="cls_012">SPANSPKNG 2P</span></div>
+<div style="position:absolute;left:338.50px;top:343.28px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:342.96px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:343.43px" class="cls_012"><span class="cls_012">1620</span></div>
+<div style="position:absolute;left:446.50px;top:343.43px" class="cls_012"><span class="cls_012">GOVT US AP</span></div>
+<div style="position:absolute;left:544.96px;top:343.43px" class="cls_012"><span class="cls_012">5.00 / 0.00</span></div>
+<div style="position:absolute;left:50.39px;top:352.48px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:63.93px;top:352.48px" class="cls_002"><span class="cls_002">2015</span></div>
+<div style="position:absolute;left:108.93px;top:352.48px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  S2</span></div>
+<div style="position:absolute;left:162.93px;top:352.48px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:189.89px;top:352.48px" class="cls_002"><span class="cls_002">09</span></div>
+<div style="position:absolute;left:235.00px;top:351.57px" class="cls_012"><span class="cls_012">4301</span></div>
+<div style="position:absolute;left:266.50px;top:351.57px" class="cls_012"><span class="cls_012">PE10/CORE</span></div>
+<div style="position:absolute;left:338.50px;top:351.85px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:351.53px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:352.00px" class="cls_012"><span class="cls_012">2616</span></div>
+<div style="position:absolute;left:446.50px;top:352.00px" class="cls_012"><span class="cls_012">AP CALCULUS BC</span></div>
+<div style="position:absolute;left:544.96px;top:352.00px" class="cls_012"><span class="cls_012">5.00 / 0.00</span></div>
+<div style="position:absolute;left:235.00px;top:360.13px" class="cls_012"><span class="cls_012">6871</span></div>
+<div style="position:absolute;left:266.50px;top:360.13px" class="cls_012"><span class="cls_012">Principles of Engineering ( A</span></div>
+<div style="position:absolute;left:364.96px;top:360.10px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:360.57px" class="cls_012"><span class="cls_012">3603</span></div>
+<div style="position:absolute;left:446.50px;top:360.57px" class="cls_012"><span class="cls_012">PHYSICS A P</span></div>
+<div style="position:absolute;left:544.96px;top:360.57px" class="cls_012"><span class="cls_012">5.00 / 0.00</span></div>
+<div style="position:absolute;left:55.00px;top:362.80px" class="cls_012"><span class="cls_012">0005</span></div>
+<div style="position:absolute;left:86.50px;top:362.80px" class="cls_012"><span class="cls_012">ENG 9 G P</span></div>
+<div style="position:absolute;left:158.50px;top:363.08px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:362.76px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:368.70px" class="cls_012"><span class="cls_012">7216</span></div>
+<div style="position:absolute;left:266.50px;top:368.70px" class="cls_012"><span class="cls_012">Extreme Health/Fitness</span></div>
+<div style="position:absolute;left:338.50px;top:368.99px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:368.66px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:415.00px;top:369.13px" class="cls_012"><span class="cls_012">3782</span></div>
+<div style="position:absolute;left:446.50px;top:369.13px" class="cls_012"><span class="cls_012">Environmental Sustainabili</span></div>
+<div style="position:absolute;left:544.96px;top:369.13px" class="cls_012"><span class="cls_012">5.00 / 0.00</span></div>
+<div style="position:absolute;left:55.00px;top:371.37px" class="cls_012"><span class="cls_012">2411</span></div>
+<div style="position:absolute;left:86.50px;top:371.37px" class="cls_012"><span class="cls_012">ALG/ADV P</span></div>
+<div style="position:absolute;left:158.50px;top:371.65px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:371.33px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:227.33px;top:377.17px" class="cls_014"><span class="cls_014">Cred Att: 35.00</span></div>
+<div style="position:absolute;left:287.30px;top:377.20px" class="cls_014"><span class="cls_014">Cred Cmp: 35.00</span></div>
+<div style="position:absolute;left:353.84px;top:377.20px" class="cls_014"><span class="cls_014">GPA: 4.14</span></div>
+<div style="position:absolute;left:415.00px;top:377.70px" class="cls_012"><span class="cls_012">4501</span></div>
+<div style="position:absolute;left:446.50px;top:377.70px" class="cls_012"><span class="cls_012">COEDPE ELECT</span></div>
+<div style="position:absolute;left:544.96px;top:377.70px" class="cls_012"><span class="cls_012">5.00 / 0.00</span></div>
+<div style="position:absolute;left:55.00px;top:379.93px" class="cls_012"><span class="cls_012">3132</span></div>
+<div style="position:absolute;left:86.50px;top:379.93px" class="cls_012"><span class="cls_012">AG RESOURCEP</span></div>
+<div style="position:absolute;left:158.50px;top:380.22px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:379.89px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:55.00px;top:388.50px" class="cls_012"><span class="cls_012">3864</span></div>
+<div style="position:absolute;left:86.50px;top:388.50px" class="cls_012"><span class="cls_012">SPANSPKNG 1P</span></div>
+<div style="position:absolute;left:158.50px;top:388.79px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:388.46px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:274.94px;top:385.69px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:415.00px;top:386.27px" class="cls_012"><span class="cls_012">6977</span></div>
+<div style="position:absolute;left:446.50px;top:386.27px" class="cls_012"><span class="cls_012">Computer Science Principl</span></div>
+<div style="position:absolute;left:544.96px;top:386.27px" class="cls_012"><span class="cls_012">5.00 / 0.00</span></div>
+<div style="position:absolute;left:230.39px;top:395.32px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:243.93px;top:395.32px" class="cls_002"><span class="cls_002">2016</span></div>
+<div style="position:absolute;left:288.93px;top:395.32px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  SS1</span></div>
+<div style="position:absolute;left:342.93px;top:395.32px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:369.89px;top:395.32px" class="cls_002"><span class="cls_002">10</span></div>
+<div style="position:absolute;left:415.00px;top:394.84px" class="cls_012"><span class="cls_012">7440</span></div>
+<div style="position:absolute;left:446.50px;top:394.84px" class="cls_012"><span class="cls_012">STU LDRSHP</span></div>
+<div style="position:absolute;left:544.96px;top:394.84px" class="cls_012"><span class="cls_012">5.00 / 0.00</span></div>
+<div style="position:absolute;left:55.00px;top:397.07px" class="cls_012"><span class="cls_012">4201</span></div>
+<div style="position:absolute;left:86.50px;top:397.07px" class="cls_012"><span class="cls_012">PE 9/CORE</span></div>
+<div style="position:absolute;left:158.50px;top:397.35px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:397.03px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:55.00px;top:405.64px" class="cls_012"><span class="cls_012">4501</span></div>
+<div style="position:absolute;left:86.50px;top:405.64px" class="cls_012"><span class="cls_012">COEDPE ELECT</span></div>
+<div style="position:absolute;left:158.50px;top:405.92px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:405.60px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:405.64px" class="cls_012"><span class="cls_012">7268</span></div>
+<div style="position:absolute;left:266.50px;top:405.64px" class="cls_012"><span class="cls_012">HEALTH EDUC</span></div>
+<div style="position:absolute;left:338.50px;top:405.92px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:405.60px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:407.33px;top:403.30px" class="cls_014"><span class="cls_014">Cred Att: 40.00</span></div>
+<div style="position:absolute;left:467.30px;top:403.33px" class="cls_014"><span class="cls_014">Cred Cmp:</span></div>
+<div style="position:absolute;left:533.84px;top:403.33px" class="cls_014"><span class="cls_014">GPA:</span></div>
+<div style="position:absolute;left:55.00px;top:414.21px" class="cls_012"><span class="cls_012">6772</span></div>
+<div style="position:absolute;left:86.50px;top:414.21px" class="cls_012"><span class="cls_012">Intro to Design (PLTW)</span></div>
+<div style="position:absolute;left:158.50px;top:414.49px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:414.17px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:227.33px;top:414.10px" class="cls_014"><span class="cls_014">Cred Att: 5.00</span></div>
+<div style="position:absolute;left:287.30px;top:414.13px" class="cls_014"><span class="cls_014">Cred Cmp: 5.00</span></div>
+<div style="position:absolute;left:353.84px;top:414.13px" class="cls_014"><span class="cls_014">GPA: 4.00</span></div>
+<div style="position:absolute;left:47.33px;top:422.67px" class="cls_014"><span class="cls_014">Cred Att: 35.00</span></div>
+<div style="position:absolute;left:107.30px;top:422.70px" class="cls_014"><span class="cls_014">Cred Cmp: 35.00</span></div>
+<div style="position:absolute;left:173.84px;top:422.70px" class="cls_014"><span class="cls_014">GPA: 4.00</span></div>
+<div style="position:absolute;left:274.94px;top:422.62px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:94.94px;top:431.19px" class="cls_002"><span class="cls_002">Shafter High School</span></div>
+<div style="position:absolute;left:230.39px;top:432.25px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:243.93px;top:432.25px" class="cls_002"><span class="cls_002">2017</span></div>
+<div style="position:absolute;left:288.93px;top:432.25px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  S1</span></div>
+<div style="position:absolute;left:342.93px;top:432.25px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:369.89px;top:432.25px" class="cls_002"><span class="cls_002">11</span></div>
+<div style="position:absolute;left:50.39px;top:440.82px" class="cls_011"><span class="cls_011">Yr:</span></div>
+<div style="position:absolute;left:63.93px;top:440.82px" class="cls_002"><span class="cls_002">2015</span></div>
+<div style="position:absolute;left:108.93px;top:440.82px" class="cls_011"><span class="cls_011">Term:</span><span class="cls_002">  SS1</span></div>
+<div style="position:absolute;left:162.93px;top:440.82px" class="cls_011"><span class="cls_011">Grade:</span></div>
+<div style="position:absolute;left:189.89px;top:440.82px" class="cls_002"><span class="cls_002">09</span></div>
+<div style="position:absolute;left:235.00px;top:442.57px" class="cls_012"><span class="cls_012">0407</span></div>
+<div style="position:absolute;left:266.50px;top:442.57px" class="cls_012"><span class="cls_012">AP ENGLISH/LANGUAGE A</span></div>
+<div style="position:absolute;left:364.96px;top:442.54px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:55.00px;top:451.14px" class="cls_012"><span class="cls_012">1025</span></div>
+<div style="position:absolute;left:86.50px;top:451.14px" class="cls_012"><span class="cls_012">WLD HIST P</span></div>
+<div style="position:absolute;left:158.50px;top:451.43px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:451.10px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:451.14px" class="cls_012"><span class="cls_012">1407</span></div>
+<div style="position:absolute;left:266.50px;top:451.14px" class="cls_012"><span class="cls_012">AP USHISTORY</span></div>
+<div style="position:absolute;left:338.50px;top:451.43px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:451.10px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:55.00px;top:459.71px" class="cls_012"><span class="cls_012">7164</span></div>
+<div style="position:absolute;left:86.50px;top:459.71px" class="cls_012"><span class="cls_012">CAREER DEV</span></div>
+<div style="position:absolute;left:158.50px;top:459.99px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:184.96px;top:459.67px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:459.71px" class="cls_012"><span class="cls_012">2615</span></div>
+<div style="position:absolute;left:266.50px;top:459.71px" class="cls_012"><span class="cls_012">AP CALCULUS AB</span></div>
+<div style="position:absolute;left:338.50px;top:459.99px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:459.67px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:47.33px;top:468.18px" class="cls_014"><span class="cls_014">Cred Att: 10.00</span></div>
+<div style="position:absolute;left:107.30px;top:468.21px" class="cls_014"><span class="cls_014">Cred Cmp: 10.00</span></div>
+<div style="position:absolute;left:173.84px;top:468.21px" class="cls_014"><span class="cls_014">GPA: 4.00</span></div>
+<div style="position:absolute;left:235.00px;top:468.28px" class="cls_012"><span class="cls_012">3414</span></div>
+<div style="position:absolute;left:266.50px;top:468.28px" class="cls_012"><span class="cls_012">CHEMISTRY HP</span></div>
+<div style="position:absolute;left:338.50px;top:468.56px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:468.24px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:476.85px" class="cls_012"><span class="cls_012">4168</span></div>
+<div style="position:absolute;left:266.50px;top:476.85px" class="cls_012"><span class="cls_012">AP SPAN LANG</span></div>
+<div style="position:absolute;left:338.50px;top:477.13px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:476.81px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:235.00px;top:485.41px" class="cls_012"><span class="cls_012">4501</span></div>
+<div style="position:absolute;left:266.50px;top:485.41px" class="cls_012"><span class="cls_012">COEDPE ELECT</span></div>
+<div style="position:absolute;left:338.50px;top:485.70px" class="cls_012"><span class="cls_012">A</span></div>
+<div style="position:absolute;left:364.96px;top:485.38px" class="cls_012"><span class="cls_012">5.00</span><span class="cls_013"> /</span><span class="cls_012"> 5.00</span></div>
+<div style="position:absolute;left:319.14px;top:493.75px" class="cls_014"><span class="cls_014">Continued on next column...</span></div>
+<div style="position:absolute;left:94.57px;top:558.22px" class="cls_010"><span class="cls_010">GPA SUMMARY</span></div>
+<div style="position:absolute;left:323.29px;top:558.22px" class="cls_019"><span class="cls_019">NOTES</span></div>
+<div style="position:absolute;left:41.46px;top:571.88px" class="cls_018"><span class="cls_018">10-12 WT/NPE</span></div>
+<div style="position:absolute;left:129.16px;top:571.88px" class="cls_018"><span class="cls_018">Cal Grant</span></div>
+<div style="position:absolute;left:221.50px;top:576.29px" class="cls_017"><span class="cls_017">A = Audit Class</span></div>
+<div style="position:absolute;left:41.46px;top:585.43px" class="cls_014"><span class="cls_014">10-12 WT/NPE</span></div>
+<div style="position:absolute;left:105.49px;top:585.38px" class="cls_002"><span class="cls_002">4.375</span></div>
+<div style="position:absolute;left:129.16px;top:585.39px" class="cls_014"><span class="cls_014">9-12 WT (All Sub)</span></div>
+<div style="position:absolute;left:193.19px;top:585.35px" class="cls_002"><span class="cls_002">4.375</span></div>
+<div style="position:absolute;left:129.16px;top:603.39px" class="cls_014"><span class="cls_014">Cal Grant</span></div>
+<div style="position:absolute;left:196.81px;top:603.35px" class="cls_002"><span class="cls_002">4.00</span></div>
+<div style="position:absolute;left:41.46px;top:639.34px" class="cls_007"><span class="cls_007">Enter Date</span></div>
+<div style="position:absolute;left:45.96px;top:648.34px" class="cls_016"><span class="cls_016">08/19/2015</span></div>
+<div style="position:absolute;left:131.46px;top:670.84px" class="cls_007"><span class="cls_007">Graduation Date</span></div>
+<div style="position:absolute;left:98.45px;top:702.11px" class="cls_006"><span class="cls_006">Class of 2019</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="afeeff50-b60c-11e8-b59b-0cc47a792c0a_id_afeeff50-b60c-11e8-b59b-0cc47a792c0a_files/background2.jpg" width=612 height=792></div>
+<div style="position:absolute;left:41.50px;top:36.24px" class="cls_004"><span class="cls_004">Student Name</span></div>
+<div style="position:absolute;left:438.00px;top:37.94px" class="cls_005"><span class="cls_005">Unofficial High School</span></div>
+<div style="position:absolute;left:251.49px;top:42.44px" class="cls_005"><span class="cls_005">Kern High School District</span></div>
+<div style="position:absolute;left:46.00px;top:45.56px" class="cls_005"><span class="cls_005">Rodriguez Garcia, Marco A.</span></div>
+<div style="position:absolute;left:447.78px;top:51.54px" class="cls_009"><span class="cls_009">Shafter High School</span></div>
+<div style="position:absolute;left:265.98px;top:55.94px" class="cls_006"><span class="cls_006">Shafter High School</span></div>
+<div style="position:absolute;left:41.50px;top:63.24px" class="cls_004"><span class="cls_004">Perm ID</span></div>
+<div style="position:absolute;left:104.50px;top:63.24px" class="cls_004"><span class="cls_004">State ID</span></div>
+<div style="position:absolute;left:167.50px;top:63.24px" class="cls_004"><span class="cls_004">Grd</span></div>
+<div style="position:absolute;left:194.50px;top:63.24px" class="cls_004"><span class="cls_004">Gen</span></div>
+<div style="position:absolute;left:448.64px;top:64.14px" class="cls_009"><span class="cls_009">September 06, 2018</span></div>
+<div style="position:absolute;left:46.00px;top:73.37px" class="cls_005"><span class="cls_005">514380</span></div>
+<div style="position:absolute;left:109.00px;top:73.59px" class="cls_005"><span class="cls_005">6063352525</span></div>
+<div style="position:absolute;left:172.00px;top:73.59px" class="cls_005"><span class="cls_005">12</span></div>
+<div style="position:absolute;left:199.00px;top:73.59px" class="cls_005"><span class="cls_005">M</span></div>
+<div style="position:absolute;left:245.31px;top:72.24px" class="cls_004"><span class="cls_004">Unofficial Transcript (High School)</span></div>
+<div style="position:absolute;left:436.00px;top:76.74px" class="cls_009"><span class="cls_009"> </span><A HREF="http://shafter.kernhigh.org/">http://shafter.kernhigh.org</A> </div>
+<div style="position:absolute;left:41.50px;top:90.24px" class="cls_004"><span class="cls_004">Date Of Birth</span></div>
+<div style="position:absolute;left:131.50px;top:92.49px" class="cls_004"><span class="cls_004">Phone</span></div>
+<div style="position:absolute;left:401.50px;top:90.24px" class="cls_004"><span class="cls_004">Phone</span></div>
+<div style="position:absolute;left:491.50px;top:90.24px" class="cls_004"><span class="cls_004">Fax</span></div>
+<div style="position:absolute;left:221.50px;top:99.33px" class="cls_007"><span class="cls_007">Enter Date</span></div>
+<div style="position:absolute;left:311.50px;top:99.33px" class="cls_007"><span class="cls_007">Leave Date</span></div>
+<div style="position:absolute;left:48.25px;top:101.39px" class="cls_005"><span class="cls_005">07/23/2001</span></div>
+<div style="position:absolute;left:138.25px;top:101.39px" class="cls_005"><span class="cls_005">661-240-3999</span></div>
+<div style="position:absolute;left:406.00px;top:100.58px" class="cls_005"><span class="cls_005">661-746-4961</span></div>
+<div style="position:absolute;left:496.00px;top:100.58px" class="cls_005"><span class="cls_005">661-746-6743</span></div>
+<div style="position:absolute;left:226.00px;top:108.05px" class="cls_008"><span class="cls_008">08/19/2015</span></div>
+<div style="position:absolute;left:39.25px;top:117.24px" class="cls_004"><span class="cls_004">Home Address</span></div>
+<div style="position:absolute;left:401.50px;top:117.24px" class="cls_004"><span class="cls_004">School Address</span></div>
+<div style="position:absolute;left:41.50px;top:128.49px" class="cls_009"><span class="cls_009">700 S Shafter Ave Spc 15</span></div>
+<div style="position:absolute;left:406.00px;top:127.66px" class="cls_010"><span class="cls_010">526 Mannel Ave</span></div>
+<div style="position:absolute;left:41.50px;top:137.49px" class="cls_009"><span class="cls_009">Shafter, CA 93263-2643</span></div>
+<div style="position:absolute;left:274.04px;top:134.44px" class="cls_008"><span class="cls_008">Class of 2019</span></div>
+<div style="position:absolute;left:406.00px;top:137.38px" class="cls_010"><span class="cls_010">Shafter, CA 93263-1810</span></div>
+<div style="position:absolute;left:50.56px;top:169.83px" class="cls_015"><span class="cls_015">Graduation Requirements  -  Credit Summary</span></div>
+<div style="position:absolute;left:282.34px;top:169.83px" class="cls_015"><span class="cls_015">Achievements</span></div>
+<div style="position:absolute;left:39.41px;top:180.96px" class="cls_007"><span class="cls_007">Subject Area</span></div>
+<div style="position:absolute;left:116.86px;top:181.33px" class="cls_011"><span class="cls_011">Req'd</span></div>
+<div style="position:absolute;left:143.30px;top:181.33px" class="cls_011"><span class="cls_011">Comp</span></div>
+<div style="position:absolute;left:175.44px;top:181.33px" class="cls_011"><span class="cls_011">WIP</span></div>
+<div style="position:absolute;left:192.20px;top:181.33px" class="cls_011"><span class="cls_011">Needed</span></div>
+<div style="position:absolute;left:217.25px;top:180.96px" class="cls_007"><span class="cls_007">Name</span></div>
+<div style="position:absolute;left:319.09px;top:180.96px" class="cls_007"><span class="cls_007">Date</span></div>
+<div style="position:absolute;left:358.48px;top:180.96px" class="cls_007"><span class="cls_007">Sch Yr</span></div>
+<div style="position:absolute;left:39.41px;top:191.65px" class="cls_011"><span class="cls_011">English</span></div>
+<div style="position:absolute;left:117.48px;top:191.65px" class="cls_011"><span class="cls_011">40.00</span></div>
+<div style="position:absolute;left:144.48px;top:191.65px" class="cls_011"><span class="cls_011">30.00</span></div>
+<div style="position:absolute;left:175.10px;top:191.65px" class="cls_011"><span class="cls_011">5.00</span></div>
+<div style="position:absolute;left:202.17px;top:191.65px" class="cls_011"><span class="cls_011">5.00</span></div>
+<div style="position:absolute;left:217.25px;top:191.43px" class="cls_011"><span class="cls_011">CSF</span></div>
+<div style="position:absolute;left:319.06px;top:191.43px" class="cls_011"><span class="cls_011">12/23/2017</span></div>
+<div style="position:absolute;left:369.22px;top:191.43px" class="cls_011"><span class="cls_011">2016</span></div>
+<div style="position:absolute;left:39.41px;top:200.22px" class="cls_011"><span class="cls_011">Math</span></div>
+<div style="position:absolute;left:117.48px;top:200.22px" class="cls_011"><span class="cls_011">20.00</span></div>
+<div style="position:absolute;left:144.48px;top:200.22px" class="cls_011"><span class="cls_011">20.00</span></div>
+<div style="position:absolute;left:39.41px;top:208.78px" class="cls_011"><span class="cls_011">Algebra</span></div>
+<div style="position:absolute;left:117.48px;top:208.78px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:144.48px;top:208.78px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:39.41px;top:217.35px" class="cls_011"><span class="cls_011">Earth/Physical/Chemist</span></div>
+<div style="position:absolute;left:117.48px;top:217.35px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:144.48px;top:217.35px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:39.41px;top:225.92px" class="cls_011"><span class="cls_011">Life Science/Biology</span></div>
+<div style="position:absolute;left:117.48px;top:225.92px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:144.48px;top:225.92px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:39.41px;top:234.49px" class="cls_011"><span class="cls_011">Health</span></div>
+<div style="position:absolute;left:121.10px;top:234.49px" class="cls_011"><span class="cls_011">5.00</span></div>
+<div style="position:absolute;left:148.10px;top:234.49px" class="cls_011"><span class="cls_011">5.00</span></div>
+<div style="position:absolute;left:39.41px;top:243.06px" class="cls_011"><span class="cls_011">Wrld Hst/Geography/Cu</span></div>
+<div style="position:absolute;left:117.48px;top:243.06px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:144.48px;top:243.06px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:39.41px;top:251.62px" class="cls_011"><span class="cls_011">U.S. History/Geography</span></div>
+<div style="position:absolute;left:117.48px;top:251.62px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:144.48px;top:251.62px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:39.41px;top:260.19px" class="cls_011"><span class="cls_011">American Govt/Civics</span></div>
+<div style="position:absolute;left:121.10px;top:260.19px" class="cls_011"><span class="cls_011">5.00</span></div>
+<div style="position:absolute;left:148.10px;top:260.19px" class="cls_011"><span class="cls_011">0.00</span></div>
+<div style="position:absolute;left:175.10px;top:260.19px" class="cls_011"><span class="cls_011">5.00</span></div>
+<div style="position:absolute;left:39.41px;top:268.76px" class="cls_011"><span class="cls_011">Economics</span></div>
+<div style="position:absolute;left:121.10px;top:268.76px" class="cls_011"><span class="cls_011">5.00</span></div>
+<div style="position:absolute;left:148.10px;top:268.76px" class="cls_011"><span class="cls_011">0.00</span></div>
+<div style="position:absolute;left:202.17px;top:268.76px" class="cls_011"><span class="cls_011">5.00</span></div>
+<div style="position:absolute;left:39.41px;top:277.33px" class="cls_011"><span class="cls_011">Foreign Language/Fine</span></div>
+<div style="position:absolute;left:117.48px;top:277.33px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:144.48px;top:277.33px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:39.41px;top:285.90px" class="cls_011"><span class="cls_011">Physical Education</span></div>
+<div style="position:absolute;left:117.48px;top:285.90px" class="cls_011"><span class="cls_011">20.00</span></div>
+<div style="position:absolute;left:144.48px;top:285.90px" class="cls_011"><span class="cls_011">20.00</span></div>
+<div style="position:absolute;left:39.41px;top:294.46px" class="cls_011"><span class="cls_011">Electives</span></div>
+<div style="position:absolute;left:117.48px;top:294.46px" class="cls_011"><span class="cls_011">65.00</span></div>
+<div style="position:absolute;left:140.87px;top:294.46px" class="cls_011"><span class="cls_011">100.00</span></div>
+<div style="position:absolute;left:171.48px;top:294.46px" class="cls_011"><span class="cls_011">30.00</span></div>
+<div style="position:absolute;left:39.30px;top:303.53px" class="cls_002"><span class="cls_002">TOTALS</span></div>
+<div style="position:absolute;left:113.87px;top:303.53px" class="cls_011"><span class="cls_011">220.00</span></div>
+<div style="position:absolute;left:140.87px;top:303.53px" class="cls_011"><span class="cls_011">235.00</span></div>
+<div style="position:absolute;left:171.48px;top:303.53px" class="cls_011"><span class="cls_011">40.00</span></div>
+<div style="position:absolute;left:198.56px;top:303.53px" class="cls_011"><span class="cls_011">10.00</span></div>
+<div style="position:absolute;left:88.23px;top:313.52px" class="cls_015"><span class="cls_015">Additional Test History</span></div>
+<div style="position:absolute;left:37.43px;top:324.24px" class="cls_007"><span class="cls_007">Test Name</span></div>
+<div style="position:absolute;left:159.18px;top:324.24px" class="cls_007"><span class="cls_007">Admin Dt</span></div>
+<div style="position:absolute;left:196.57px;top:324.24px" class="cls_007"><span class="cls_007">Score</span></div>
+<div style="position:absolute;left:37.43px;top:335.22px" class="cls_011"><span class="cls_011">PSAT MATH</span></div>
+<div style="position:absolute;left:157.94px;top:335.26px" class="cls_014"><span class="cls_014">10/11/2017</span></div>
+<div style="position:absolute;left:202.21px;top:335.22px" class="cls_011"><span class="cls_011">27.0</span></div>
+<div style="position:absolute;left:37.43px;top:345.30px" class="cls_011"><span class="cls_011">PSAT SELECTION INDEX</span></div>
+<div style="position:absolute;left:157.94px;top:345.34px" class="cls_014"><span class="cls_014">10/11/2017</span></div>
+<div style="position:absolute;left:204.01px;top:345.30px" class="cls_011"><span class="cls_011">150</span></div>
+<div style="position:absolute;left:37.43px;top:355.38px" class="cls_011"><span class="cls_011">PSAT VERBAL</span></div>
+<div style="position:absolute;left:157.94px;top:355.42px" class="cls_014"><span class="cls_014">10/11/2017</span></div>
+<div style="position:absolute;left:207.63px;top:355.38px" class="cls_011"><span class="cls_011">26</span></div>
+<div style="position:absolute;left:37.43px;top:365.46px" class="cls_011"><span class="cls_011">PSAT WRITING</span></div>
+<div style="position:absolute;left:157.94px;top:365.50px" class="cls_014"><span class="cls_014">10/11/2017</span></div>
+<div style="position:absolute;left:207.63px;top:365.46px" class="cls_011"><span class="cls_011">22</span></div>
+<div style="position:absolute;left:37.43px;top:375.54px" class="cls_011"><span class="cls_011">SAT EBRW</span></div>
+<div style="position:absolute;left:157.94px;top:375.58px" class="cls_014"><span class="cls_014">03/10/2018</span></div>
+<div style="position:absolute;left:204.01px;top:375.54px" class="cls_011"><span class="cls_011">560</span></div>
+<div style="position:absolute;left:37.43px;top:385.62px" class="cls_011"><span class="cls_011">SAT I MATH</span></div>
+<div style="position:absolute;left:157.94px;top:385.66px" class="cls_014"><span class="cls_014">03/10/2018</span></div>
+<div style="position:absolute;left:204.01px;top:385.62px" class="cls_011"><span class="cls_011">620</span></div>
+<div style="position:absolute;left:102.34px;top:396.41px" class="cls_015"><span class="cls_015">Achievements</span></div>
+<div style="position:absolute;left:37.25px;top:407.54px" class="cls_007"><span class="cls_007">Name</span></div>
+<div style="position:absolute;left:139.09px;top:407.54px" class="cls_007"><span class="cls_007">Date</span></div>
+<div style="position:absolute;left:178.48px;top:407.54px" class="cls_007"><span class="cls_007">Sch Yr</span></div>
+<div style="position:absolute;left:37.25px;top:418.02px" class="cls_011"><span class="cls_011">CSF</span></div>
+<div style="position:absolute;left:139.06px;top:418.02px" class="cls_011"><span class="cls_011">06/03/2016</span></div>
+<div style="position:absolute;left:189.22px;top:418.02px" class="cls_011"><span class="cls_011">2015</span></div>
+<div style="position:absolute;left:37.25px;top:426.58px" class="cls_011"><span class="cls_011">CSF</span></div>
+<div style="position:absolute;left:139.06px;top:426.58px" class="cls_011"><span class="cls_011">06/02/2017</span></div>
+<div style="position:absolute;left:189.22px;top:426.58px" class="cls_011"><span class="cls_011">2016</span></div>
+<div style="position:absolute;left:37.25px;top:435.15px" class="cls_011"><span class="cls_011">CSF</span></div>
+<div style="position:absolute;left:139.06px;top:435.15px" class="cls_011"><span class="cls_011">12/22/2017</span></div>
+<div style="position:absolute;left:189.22px;top:435.15px" class="cls_011"><span class="cls_011">2017</span></div>
+<div style="position:absolute;left:94.57px;top:558.22px" class="cls_010"><span class="cls_010">GPA SUMMARY</span></div>
+<div style="position:absolute;left:323.29px;top:558.22px" class="cls_019"><span class="cls_019">NOTES</span></div>
+<div style="position:absolute;left:41.46px;top:571.88px" class="cls_018"><span class="cls_018">10-12 WT/NPE</span></div>
+<div style="position:absolute;left:129.16px;top:571.88px" class="cls_018"><span class="cls_018">Cal Grant</span></div>
+<div style="position:absolute;left:221.50px;top:576.29px" class="cls_017"><span class="cls_017">A = Audit Class</span></div>
+<div style="position:absolute;left:41.46px;top:585.43px" class="cls_014"><span class="cls_014">10-12 WT/NPE</span></div>
+<div style="position:absolute;left:105.49px;top:585.38px" class="cls_002"><span class="cls_002">4.375</span></div>
+<div style="position:absolute;left:129.16px;top:585.39px" class="cls_014"><span class="cls_014">9-12 WT (All Sub)</span></div>
+<div style="position:absolute;left:193.19px;top:585.35px" class="cls_002"><span class="cls_002">4.375</span></div>
+<div style="position:absolute;left:129.16px;top:603.39px" class="cls_014"><span class="cls_014">Cal Grant</span></div>
+<div style="position:absolute;left:196.81px;top:603.35px" class="cls_002"><span class="cls_002">4.00</span></div>
+<div style="position:absolute;left:41.46px;top:639.34px" class="cls_007"><span class="cls_007">Enter Date</span></div>
+<div style="position:absolute;left:45.96px;top:648.34px" class="cls_016"><span class="cls_016">08/19/2015</span></div>
+<div style="position:absolute;left:131.46px;top:670.84px" class="cls_007"><span class="cls_007">Graduation Date</span></div>
+<div style="position:absolute;left:98.45px;top:702.11px" class="cls_006"><span class="cls_006">Class of 2019</span></div>
+</div>
+
+</body>
+</html>
