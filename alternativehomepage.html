@@ -170,12 +170,27 @@ body, html {
     <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE (Coming Soon...)</button>
   </div>
     
+    <div>
+    <style type="text/css">#largeImgPanel {
+            text-align: center;
+            display: none;
+            position: fixed;
+            z-index: 100;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-color: rgba(100,100,100, 0.5);
+        }
     
-    <div href="3.jpg">
-<img src="PLTWconference.jpg" width="300px" height="250px">
-</div>
+    
+    <p>Please click on each image thumbnail to enlarge. Click again to return to this view.</p>
+<br />
+<img onclick="showImage(this.src, 'PLTWconference.png');" src="PLTWconference.png" style="cursor: pointer; border-width: 1px; border-style: solid;" />               <br />
+<br />
+<img onclick="showImage(this.src, 'PLTWconference.png');" src="PLTWconference.png" style="cursor: pointer; border-width: 1px; border-style: solid;" />               <br />
+<br />
+<img onclick="showImage(this.src, 'PLTWconference.png');" src="PLTWconference.png" style="cursor: pointer; border-width: 1px; border-style: solid;" />      
     
     </div>
+    </div>    
     
      <div> 
        <!-- 
