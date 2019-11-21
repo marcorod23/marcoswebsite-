@@ -1,0 +1,303 @@
+
+<html>
+<title> Marco Rodriguez </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('code2.jpg');
+    min-height: 100%;
+}
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url('football3.jpg');
+    min-height: 100%;
+}
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("paris.jpg");
+    min-height: 400px;
+}
+/* Fourth image (Academics) */
+.bgimg-4 {
+    background-image: url("CASCADES.jpg");
+    min-height: 50%;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a class="active" href="alternativehomepage.html">Home</a>
+  </div>
+</div>
+
+    
+    
+    
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> </span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I love learning</em></p>
+  <p> I believe we are all on a life-mission trying to find ourselves. I’ve been trying to find myself for a while now. Many people go their whole lives without figuring out who they are, and I think it’s sad that most of those people are not presented with the opportunities to find themselves. When I was in elementary school, I came to the conclusion that if I wanted to do something, no matter what it was, I had to do it to the best of my ability. I think if you're investing your time into anything you shouldn’t waste your time 
+      it by not putting your best effort into it, you know? Anyways, I know it is cliché and even cringe to talk about this on a memoir and that we all go through things in our lives, but I truly believe the shift of mindset I had while growing up set the tone for  the way I view things now. Without that “shift” I wouldn’t be where I am today, physically and mentally. Trust me I know everyone has their own hardships and challenges but it’s the way I approach and react to them that makes it different from my perspective.  
+      I was given what I was given, I just had to work around it and make the best of it by trying to be positive all the time. This so-called transformation of outlook and perspective on life is what made me step out of my comfort zone many times, it is why I now have the goal to leave this earth with as many achieved dreams as I can carry out. Think about it, there are so many people who have left this earth without acting on their dreams, because they were afraid. They were afraid to take on a challenge, they were afraid to step
+      out of their comfort zone. Those same people could have been the next to discover the cure to many unknown diseases, the next to change the world, the next to make a difference in people's lives, they could have been the next to be great things we’ve yet to be great at. But that doesn't happen, simply because people are afraid to take on challenges. I want to be able yo say that I changed the world. Changing one person’s life can be considered as changing the world because they are part of this world and by you changing their lives,
+      they're going to change someone's life and then they'll change somebody else’s life and so on. If we all make an effort to change someone's life for the better, this world can become phenomenal. I only talk about a few examples and as small as these events may seem, they definitely changed my life. I think this turning point in my life is what made me find myself a little more than before. However, I still think that I haven't found myself completely because I'm a teenager. I don't think it’s normal to have found who you're going to
+      be for the rest of your life when you’re barely eighteen years old, but it certainly did contribute in shaping me into who I am today. I’m passionate about my mindset, I’m passionate about staying positive even when everything is going wrong, I’m passionate about trying to succeed, I’m passionate about being the best version of myself that I can be, but most importantly I’m passionate about being who I am. I want to improve the version of myself from the previous day, even if it's in the simplest way possible. In my opinion, anything 
+      can be achieved with a dedicated attitude and effort, because those are things you can truly control. You can’t control what life throws at you, all you can control in life is how you respond to life. 
+
+ </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Marco Rodriguez</b></p><br>
+      <a href="marcospic.jpg"><img src="marcospic.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333"></a>
+
+      </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p> Shifting gears, welcome to My Website. My name is Marco Rodriguez and this website was established just so I have an excuse to learn web development at an easy level and talk a few points about myself so you all can get to know me a little bit. Anyways you will see a lot about me becasue duh it's my website. Lets begin, I was born on July 23, 2001, in San Bernardino, California. I moved to Mexico City at the age of 3 and was raised for most of my childhood until the age of 9. I then moved back to the United States and have been here since 2010. I went to Golden Oak Elementry, Richland Junior High, and Shafter 
+          High School for my k-12 education. In high school I played three sports 
+          for two years, Football, Soccer, Track and Field, which then narrowed down to only Football and Track and Field due to time issues. I was involved in many extra curricular activities and community services. In January 24, 2019 I was awarded the Young Person Award of 2019 for the City of Shafter California. Over the past 5 years I've had several jobs such as an agriculture worker, a landscaping worker, a remodeling worker,
+          a McDonald's crew member, and a water technician at a water district. My senior year of highschool, I was accepted into UC Berkeley, UC Los Angeles, UC Davis, UC Santa Barbara, and many other schools, yet I chose to go to Cal Poly. I am currently an udergraduate student at Cal Poly San Luis Obispo seeking my Bachelors and Master's degree in Mechanical Engineering. </p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-wide"><i class="fa fa-football-ball"></i>Athletics</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">99%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Mathematics</p>
+  <div class="w3-light-grey"> 
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">99%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-wrench"></i>Working</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">99%</div>
+  </div>
+</div>
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">Portfolio</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Athletics</h3>
+  <p class="w3-center"><em>These are some of my favorite pictures regarding sports.<br> Click on the images to make them bigger</em></p><br>
+
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+<a href="141DF62A-81D9-4997-A91E-CA0DDD50174B.jpg"><img src="141DF62A-81D9-4997-A91E-CA0DDD50174B.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" title="Track" alt="Track"></a>    </div>
+
+    <div class="w3-col m3">
+<a href="football1.png"><img src="football1.png" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" title="Track" alt="Track"></a>    </div>
+    
+
+    <div class="w3-col m3">
+     <!-- <img src="track2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Buchanan">
+-->
+        <a href="track2.jpg"><img src="track2.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" title="Track" alt="Track"></a>
+    </div>
+    
+
+    <div class="w3-col m3">
+<a href="football2.jpg"><img src="football2.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" title="Track" alt="Track"></a>    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+<a href="Screen Shot 2019-10-23 at 7.32.03 PM.png"><img src="Screen Shot 2019-10-23 at 7.32.03 PM.png" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" title="Track" alt="Track"></a>    </div>
+
+    <div class="w3-col m3">
+<a href="Screen Shot 2019-10-23 at 7.56.59 PM.png"><img src="Screen Shot 2019-10-23 at 7.56.59 PM.png" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" title="Track" alt="Track"></a>    </div>
+
+    <div class="w3-col m3">
+<a href="scholarship.JPG"><img src="scholarship.JPG" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" title="Track" alt="Track"></a>    </div>
+      
+    <div class="w3-col m3">
+<a href="PLTWconference.jpg"><img src="PLTWconference.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" title="Track" alt="Track"></a>  
+     </div>
+      
+       
+
+    
+    </div>  
+   
+   
+     <div> 
+      <div class="box"><iframe src="https://www.hudl.com/embed/video/3/7207145/5daea65c7bd2a614846b9fb8" frameborder="0" style="display:inline" scrolling="no" width="100%" height="512" align="left"> </iframe> </div>
+         
+<div class="box">    <iframe src="https://www.youtube.com/embed/LLwOvcXRvm4" frameborder="0" style="display:inline" scrolling="no" width="100%" height="512" align="right">
+    </iframe>  
+         
+      
+    
+    <div class="box"> <iframe width="100%" height="512" src="https://www.youtube.com/embed/zTPk11MsvCA" frameborder="0" style="display:inline" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+        
+       
+            
+    </div>
+         </div>
+</div>
+    </div>
+    
+   
+        
+<!-- Modal for full size images on click
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div> -->
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">Portfolio</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Academics</h3>
+  <p class="w3-center"><em> Here are some of my latest projects!<br> Click on the images to make them bigger </em></p><br>
+    
+    <div>
+      
+      <body>
+
+<h2>Tennis Game invented in Scratch</h2>
+<p> Let's see if you can play this challenging game. Move left and right with the arrow keys "left" and "right" and hit the ball with the space bar. By the Way you might have to run flash before playing</p>
+
+
+</body>
+              <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/253493137/?autostart=false" frameborder="0" allowfullscreen="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+        <div/>
+
+<body>
+
+<h2>My Text Adventure on Python!!</h2>
+<p>
+  Read the instructions before playing! and click the green play button.
+</p>
+
+</body>
+        <div>
+            <iframe height="400px" width="100%" src="https://repl.it/@MarcoRodriguez1/Shafter-v-Wasco?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+            <div/>
+
+  <body>
+<h2>Type Racer</h2>
+<p> Let's see how fast you can type! in words per minute!</p>
+
+            </body>
+
+        <div>
+              <iframe height="400px" width="100%" src="https://repl.it/@MarcoRodriguez1/Type-Racer?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+        <div/>         
+            
+            
+            
+            
+          
+</div>
+<!-- Fourth Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+  
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE I WORK</h3>
+  <p class="w3-center"><em>I work as a full time student!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div>
+      <p><b><i class="fa fa-user w3-margin-right"></i>Shafter High School</b></p><br>
+      <img src="shafter.jpeg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="800" height="500">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+    </div>
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> California, US<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (661)-910-2546<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>  
+          <a href="mailto:rodriguezmarco72301@gmail.com?Subject=Hello%20again" target="_top"> Click here to Email Me !</a> <br>
+      </div>
+     <!-- <a href="mailto:rodriguezmarco72301@gmail.com?Subject=Hello%20again" target="_top">  Email Me !</a> -->
+      <p>Swing by for a cup of water <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      
+    </div>
+  </div> 
+</div>
